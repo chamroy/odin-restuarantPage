@@ -1,0 +1,67 @@
+
+/* body{
+    background-image: url("../images/background.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+} */
+
+.heroDiv{
+    color: white;
+    position: absolute;
+    top: 40%;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 3px 3px 10px rgba(255, 14, 14, 0.938);
+    width: 100%;
+}
+
+.socialMediaDiv{
+    display: flex;
+    gap: 10px;
+}
+
+
+/* .instagramDiv img{
+    width: 30px;
+    height: 30px;
+}
+
+.xDiv img{
+    width: 30px;
+    height: 30px;
+} */
+
+.socialMediaDiv{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    align-self: end;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.instagramDiv,
+.xDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.instagramIcon, .xIcon, .instagramText, .xText{
+
+    cursor: pointer;
+
+}
+
+.instagramIcon, .xIcon{
+    width: 40px;
+}
+
+.instagramText, .xText{
+    font-size: 1.3rem;
+}

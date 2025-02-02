@@ -1,0 +1,40 @@
+.menuDiv{
+    width: 100%;
+    background-color: rgba(0,0,0,0.705);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.koreanDiv,
+.beerDiv,
+.jwineDiv,
+.momoDiv,
+.kimchiDiv,
+.saladDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    
+ 
+}
+
+.koreanImg,
+.beerImg,
+.jwineImg,
+.momoImg,
+.kimchiImg,
+.saladImg{
+    width: auto;
+    height: 200px;
+    transform: scale(1.2); 
+    margin-bottom: 25px;
+}
+.menuDiv{
+   margin: 25px 20px;
+
+}
+
+
+
