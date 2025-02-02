@@ -10,8 +10,8 @@ This is a **Webpack project** from [The Odin Project](https://www.theodinproject
 ## Setup ⚡  
 1. Clone the repo:  
    ```sh
-   git clone <https://github.com/chamroy/odin-restuarantPage.git>
-   cd <restuarant-page>
+   git clone https://github.com/chamroy/odin-restuarantPage.git
+   cd restuarant-page
    ```
 2. Install dependencies:  
    ```sh
@@ -27,4 +27,4 @@ This is a **Webpack project** from [The Odin Project](https://www.theodinproject
    ```
 
 ## Live Demo 🌐  
-[Check it out on GitHub Pages](<[your-github-pages-link](https://chamroy.github.io/odin-restuarantPage/)>)  
+(https://chamroy.github.io/odin-restuarantPage/)
