@@ -27,4 +27,4 @@ This is a **Webpack project** from [The Odin Project](https://www.theodinproject
    ```
 
 ## Live Demo 🌐  
-(https://chamroy.github.io/odin-restuarantPage/)
+https://chamroy.github.io/odin-restuarantPage/
